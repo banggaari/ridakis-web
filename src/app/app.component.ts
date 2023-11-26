@@ -15,7 +15,7 @@ export class AppComponent {
     private authService: AuthService
   ) {}
   title = 'Ridakis';
-  public isAuthenticated = false;
+  public isAuthenticated = true;
 
 
   public ngOnInit(): void {
